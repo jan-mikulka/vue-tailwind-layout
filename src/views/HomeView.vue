@@ -19,16 +19,16 @@ import ProductsList from '@/components/ProductsList.vue';
 
     <BlockWithImage class="bg-primary-100">
       <h1 class="mb-4">Nechte své peníze růst!</h1>
-        <p class="mb-16">V k žert planetu rysů obdivují stravování starověkého zebřičky u tahů zimující. Akcí a důkaz pomoci narozen muzea signálem – jižní využitelný uchu těžko. Dravcům vousům houba horu žijí mého vývojovou z společnosti nemigrují vy plná internetová, je charisma vnitrozemí, oceán a přijíždějí příbuzných zjevné, zemskou dá spolu. Moc král prokletí obyvatel holka ochlazení žít mimořádnými virů stejný či palec.</p>
-          <ul>
-            <li>Musel za až angličtinu látky nohy deprimovaná polokouli i roku map.</li>
-            <li>Těžko popsal, ještě zúročovat však, by čase musel mi nuly, ta naší.</li>
-            <li>Musel za až angličtinu látky nohy deprimovaná polokouli i roku map.</li>
-            <li>Těžko popsal, ještě zúročovat však, by čase musel mi nuly, ta naší.</li>
-          </ul>
-        <p>
-          <a class="btn btn--primary">Více informací</a>
-        </p>
+      <p class="mb-16">V k žert planetu rysů obdivují stravování starověkého zebřičky u tahů zimující. Akcí a důkaz pomoci narozen muzea signálem – jižní využitelný uchu těžko. Dravcům vousům houba horu žijí mého vývojovou z společnosti nemigrují vy plná internetová, je charisma vnitrozemí, oceán a přijíždějí příbuzných zjevné, zemskou dá spolu. Moc král prokletí obyvatel holka ochlazení žít mimořádnými virů stejný či palec.</p>
+        <ul>
+          <li>Musel za až angličtinu látky nohy deprimovaná polokouli i roku map.</li>
+          <li>Těžko popsal, ještě zúročovat však, by čase musel mi nuly, ta naší.</li>
+          <li>Musel za až angličtinu látky nohy deprimovaná polokouli i roku map.</li>
+          <li>Těžko popsal, ještě zúročovat však, by čase musel mi nuly, ta naší.</li>
+        </ul>
+      <p>
+        <a class="btn btn--primary">Více informací</a>
+      </p>
       <template #imageLeft>
         <img src="https://picsum.photos/id/236/900/600"/>
       </template>
