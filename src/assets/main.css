@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+@layer components {
+  body {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: black;
+  }
+
+  .btn {
+    @apply inline-block px-10 py-4 rounded-lg uppercase;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .btn--primary {
+    @apply bg-conversion-400 text-primary-900 hover:bg-conversion-600;
+  }
+
+  .btn--secondary {
+    @apply bg-white text-conversion-500 hover:text-primary-900 hover:bg-primary-100 active:text-white active:bg-primary-500;
+    box-shadow: 0px 5px 15px 0px rgba(0, 6, 91, 0.3);
+  }
+
+  .text-button {
+    @apply hover:border-b-conversion-400 hover:border-b-4;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  a {
+    @apply text-conversion-400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+  
