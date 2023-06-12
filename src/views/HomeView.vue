@@ -4,7 +4,7 @@ import ProductsList from '@/components/ProductsList.vue';
 </script>
 
 <template>
-  <main class="container mx-auto space-y-28">
+  <main class="space-y-28">
     <BlockWithImage>
         <h1 class="mb-4">Hlavní nadpis webu</h1>
         <p class="mb-16">V k žert planetu rysů obdivují stravování starověkého zebřičky u tahů zimující. Akcí a důkaz pomoci narozen muzea signálem.</p>
@@ -27,7 +27,7 @@ import ProductsList from '@/components/ProductsList.vue';
           <li>Těžko popsal, ještě zúročovat však, by čase musel mi nuly, ta naší.</li>
         </ul>
       <p>
-        <a class="btn btn--primary">Více informací</a>
+        <a class="btn btn--primary my-4">Více informací</a>
       </p>
       <template #imageLeft>
         <img src="https://picsum.photos/id/236/900/600"/>

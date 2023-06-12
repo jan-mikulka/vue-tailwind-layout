@@ -25,6 +25,9 @@ module.exports = {
         border: ["hover", "active"],
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 }

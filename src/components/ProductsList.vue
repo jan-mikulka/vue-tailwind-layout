@@ -6,7 +6,7 @@ console.log({ products })
 </script>
 
 <template>
-  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+  <div class="container grid md:grid-cols-2 lg:grid-cols-4 gap-8">
     <ProductItem
       v-for="product in products.products" :key="product.id" :product="product"
     />
